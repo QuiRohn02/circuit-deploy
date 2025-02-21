@@ -40,7 +40,7 @@ jobs:
           pdftoppm -png -r 300 circuit.pdf circuit
 
       - name: Upload PNG as artifact
-        uses: actions/upload-artifact@v3
+        uses: actions/upload-artifact@v4
         with:
           name: circuit-image
           path: circuit-1.png
