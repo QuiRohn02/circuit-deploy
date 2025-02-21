@@ -6,7 +6,7 @@ on:
       circuit_code:
         description: 'Il codice Circuitikz da compilare'
         required: true
-        default: '\\draw (0,0) to [R, l=\\$R_1\\$] (2,0);'
+        default: '\draw (0,0) to[R, l=\$R\$] (2,0);'
 
 jobs:
   compile_circuit:
